@@ -1,6 +1,4 @@
-# Misc Financial Apps
-
-# Local Setup
+### Local Setup
 
 **1 Create Python Environment**
 ```
@@ -36,7 +34,7 @@ database=<aws database name>
 api_key=<alpha vantage api key>
 ```
 
-## Stocks Database and Daily Digest
+### Stocks Database and Daily Digest
 
 **1 Load historical prices into database**
 
@@ -57,9 +55,11 @@ Incremental load can be started by removing --historical flag
 2020-02-03 21:36:58,124 root         INFO     [SPX] min persisted date: 2000-01-03
 2020-02-03 21:36:58,124 root         INFO     [SPX] max persisted date: 2020-02-03
 2020-02-03 21:36:58,376 finapps.stocks.service INFO     [SPX] has no data for 2018-05-05, using closest available date 2018-05-04
+
  METRIC SYMBOL Thu 01 Nov 18             1d             1m             1y             3m             3y             6m
   CLOSE    SPX         2,740   2,712 (↑ 1%)  2,923 (↓ -6%)   2,579 (↑ 6%)  2,840 (↓ -3%)  2,104 (↑ 30%)   2,663 (↑ 2%)
  VOLUME    SPX         4.71G  5.11G (↓ -7%)  3.40G (↑ 38%)  3.81G (↑ 23%)  3.03G (↑ 55%)  3.76G (↑ 25%)  3.33G (↑ 41%)
+ 
 2020-02-03 21:36:58,513 digest.py    INFO     Finished
 
 ```
