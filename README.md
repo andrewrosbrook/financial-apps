@@ -10,11 +10,13 @@ touch bin/config.ini
 
 **2 Create Postgres DB on AWS Free Tier**
 
-TODO
+See https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreatePostgreSQLInstance.html
+
 
 **3 Create Alpha Vantage API Key**
 
-TODO
+See https://www.alphavantage.co/support/
+
 
 **4 Create Configuration File**
 
